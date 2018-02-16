@@ -1,0 +1,73 @@
+    /* Polls */
+
+.poll-bar {
+    background-color: /*[[bgcolor]]*/;
+}
+.TwitterCard[data-theme="tweetdeck"] {
+    color: /*[[color1]]*/;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-choice--chart {
+    background-color: /*[[color1]]*/ !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-pollWrapper {
+    border-radius: 0px !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-optionContainer .PollXChoice-choice {
+    border-radius: 0px !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-choice--chart {
+    background-color: /*[[color1]]*/ !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    border-radius: 2px 0 0 2px !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice {
+    color: #fff !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .Button--smallGray {
+    color: /*[[color1]]*/ !important;
+    border-color: /*[[color1]]*/ !important;
+    background-color: /*[[bgcolor]]*/ !important;
+    transition: 250ms !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .Button--smallGray:hover {
+    color: /*[[color2]]*/ !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-optionContainer .PollXChoice-choice--input:checked + .PollXChoice-choice--radio {
+    background: /*[[color1]]*/;
+    box-shadow: inset 0 0 0 2px /*[[bgcolor]]*/;
+    border: 1px solid /*[[color1]]*/;
+}
+.TwitterCard[data-card-client="tweetdeck"] [data-poll-user-choice="1"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="1"],
+.TwitterCard[data-card-client="tweetdeck"] [data-poll-user-choice="2"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="2"],
+.TwitterCard[data-card-client="tweetdeck"] [data-poll-user-choice="3"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="3"],
+.TwitterCard[data-card-client="tweetdeck"] [data-poll-user-choice="4"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="4"] {
+    -webkit-mask: url("https://ton.twimg.com/tfw/assets/checkmark_circle_v1_06f15f494d711c69b89c759b68d1fcbbecdca631.svg") no-repeat top left / 90%;
+    mask: url("https://ton.twimg.com/tfw/assets/checkmark_circle_v1_06f15f494d711c69b89c759b68d1fcbbecdca631.svg") no-repeat top left / 90%;
+    background: #fff;
+}
+.TwitterCard[data-card-client="tweetdeck"] .PollXChoice-footer .PollXChoice-info {
+    color: /*[[color1]]*/ !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .TwitterCard-title {
+    color: /*[[color1]]*/;
+    transition: 250ms !important;
+}
+.TwitterCard[data-card-client="tweetdeck"] .SummaryCard-content {
+    color: /*[[color3]]*/;
+}
+.TwitterCard[data-card-client="tweetdeck"] .SummaryCard-destination {
+    color: /*[[color3]]*/;
+}
+.TwitterCard[data-card-client="tweetdeck"] .TwitterCard-container {
+    border: 1px solid /*[[color1]]*/;
+    border-radius: 0;
+}
+.TwitterCard[data-card-client="tweetdeck"] .TwitterCard-container--clickable:hover {
+    background-color: /*[[bgcolor]]*/;
+    border-color: /*[[color2]]*/;
+}
+.TwitterCard[data-card-client="tweetdeck"] .TwitterCard-container--clickable:hover .TwitterCard-title {
+    color: /*[[color2]]*/;
+}
+
