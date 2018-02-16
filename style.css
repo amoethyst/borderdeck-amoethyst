@@ -1209,6 +1209,13 @@ legend.txt-r-text {
 .follow-btn .icon {
     display: none;
 }
+.follow-btn .icon, .follow-btn .Icon {
+  color: /*[[color1]]*/;
+  transition: 250ms !important;
+}
+.follow-btn:hover .icon, .follow-btn:hover .Icon {
+  color: /*[[color2]]*/;
+}
 .s-following .follow-btn:hover {
     color: #a00 !important;
 }
