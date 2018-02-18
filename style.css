@@ -1153,6 +1153,18 @@ legend.txt-r-text {
   color: /*[[color1]]*/ !important;
 }
 
+    /* Notifications popups */
+
+.Notification-content {
+  border: none;
+}
+.Notification-icon, .Notification-content, .Notification-close {
+  background-color: /*[[bgcolor]]*/;
+}
+.NotificationList .Notification-body, .Notification-icon {
+  color: /*[[color1]]*/;
+}
+
     /* Pointers, pointers everywhere (and fuck zoom icon) */
 
 .is-zoomable {
