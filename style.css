@@ -1724,3 +1724,6 @@ header .mdl-dismiss {
 .color-twitter-dark-black {
   color: /*[[color1]]*/;
 }
+.app-header .search-input-control input {
+  border-radius: 0;
+}
