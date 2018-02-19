@@ -708,6 +708,8 @@ img.emoji {
 }
 .avatar.size24 {
   box-shadow: 0 0 0 1px /*[[color1]]*/;
+  margin-top: 1px;
+  margin-left: 1px;
 }
 .avatar.size24:hover {
   box-shadow: 0 0 0 1px /*[[color2]]*/;
