@@ -488,6 +488,15 @@ html.dark .icon-mention-color, html.dark .icon-retweet-color, html.dark .icon-im
   border-bottom: 0;
   background-color: /*[[bgcolor]]*/;
 }
+.media-item.media-size-large::after {
+  background: none;
+}
+.media-size-large-height {
+  margin-bottom: 4px;
+}
+.media-preview-container {
+  margin-top: 8px !important;
+}
 .tweet-footer .pull-left > span {
   display:none;
 }
