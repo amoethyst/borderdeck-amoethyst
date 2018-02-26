@@ -1727,11 +1727,14 @@ header .mdl-dismiss {
 .color-twitter-deep-black {
   color: #fff;
 }
-.color-twitter-blue {
+.color-twitter-blue, .color-twitter-dark-black, .color-twitter-yellow {
   color: /*[[color1]]*/;
 }
-.color-twitter-dark-black {
-  color: /*[[color1]]*/;
+.icon-settings {
+  transition: 250ms !important;
+}
+.icon-settings.color-twitter-yellow:hover {
+  color: /*[[color2]]*/;
 }
 .app-header .search-input-control input {
   border-radius: 0;
