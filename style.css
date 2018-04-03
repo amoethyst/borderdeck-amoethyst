@@ -595,7 +595,7 @@ a:hover .stat-word {
 	border-bottom-color: /*[[color1]]*/;
 }
 .thread {
-	margin-top: 0px;
+	margin-top: 10px;
 	border-radius: 0;
 	background-color: /*[[color1]]*/;
 	height: 100%;
