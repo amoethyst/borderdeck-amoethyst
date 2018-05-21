@@ -1173,7 +1173,7 @@ legend.txt-r-text {
 .Notification-content {
   border: none;
 }
-.Notification-icon, .Notification-content, .Notification-close {
+.Notification-icon, .Notification-content, .Notification-close, .Notification--red .Notification-icon {
   background-color: /*[[bgcolor]]*/;
 }
 .NotificationList .Notification-body, .Notification-icon {
