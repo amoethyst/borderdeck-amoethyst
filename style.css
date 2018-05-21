@@ -753,7 +753,7 @@ img.emoji {
 .txt-r-white {
   color: inherit !important;
 }
-.color-twitter-white {
+.color-twitter-white, .color-twitter-black {
   color: /*[[color1]]*/ !important;
 }
 .compose-account {
