@@ -18,7 +18,7 @@ build/style.css: style.css
 
 build/userstyle.css: style.css iframes.css
 	@mkdir -p build
-	@printf '@namespace url(http://www.w3.org/1999/xhtml);\n\n@-moz-document domain("tweetdeck.twitter.com") {\n' > build/userstyle.css
+	@echo '@-moz-document domain("tweetdeck.twitter.com") {' > build/userstyle.css
 	@cat style.css >> build/userstyle.css
 	@printf '\n}\n\n@-moz-document regexp("https?://twitter.com/i/cards/.*") {\n' >> build/userstyle.css
 	@cat iframes.css >> build/userstyle.css
