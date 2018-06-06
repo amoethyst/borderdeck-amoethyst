@@ -349,6 +349,7 @@ input:focus, select:focus, textarea:focus, .focus {
 }
 .column-header .column-header-title {
 	height: 40px;
+    line-height: 1em;
 }
 .column-number {
   display: none;
