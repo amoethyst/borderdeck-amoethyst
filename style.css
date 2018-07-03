@@ -201,8 +201,11 @@ button:hover:not([disabled]), .Button.Button--primary:hover, button.Button--prim
 
     /* Twitter logo */
 
-.sprite-logo-badge, .sprite-logo {
+.sprite-logo-badge, .sprite-logo, .tweetdeck-logo {
   background: transparent;
+}
+.js-logo.app-title > .invisible-in-contracted-header {
+  display: none;
 }
 .app-title:before {
   left: 10px;
@@ -223,7 +226,7 @@ button:hover:not([disabled]), .Button.Button--primary:hover, button.Button--prim
   left: 47px;
 }
 input, textarea, select, .uneditable-input {
-  border-radius: 0;
+  border-radius: 0 !important;
   background-color: transparent;
   color: /*[[color2]]*/;
   border: none;
@@ -1743,4 +1746,10 @@ header .mdl-dismiss {
 }
 .app-header .search-input-control input {
   border-radius: 0;
+}
+.modal-content-with-border {
+  border: 0;
+}
+.mdl-header-title {
+  color: /*[[color1]]*/;
 }
