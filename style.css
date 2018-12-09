@@ -302,7 +302,7 @@ input:focus, select:focus, textarea:focus, .focus {
 
     /* Columns */
 
-.app-columns-container, .column, .app-content {
+.app-columns-container, .column, .app-content, .column-panel {
   background-color: /*[[bgcolor]]*/ !important;
 }
 .app-columns {
@@ -628,6 +628,21 @@ html.dark .thread {
 }
 .btn-neutral-positive:hover {
   color: /*[[color2]]*/;
+}
+.hw-card-container span {
+	color: /*[[color1]]*/;
+}
+.hw-card-container * {
+  background-color: /*[[bgcolor]]*/ !important;
+  border-color: /*[[color1]]*/ !important;
+  border-radius: 0;
+  transition: 250ms !important;
+}
+.hw-card-container:hover span {
+  color: /*[[color2]]*/;
+}
+.hw-card-container:hover * {
+  border-color: /*[[color2]]*/ !important;
 }
 
 	/* Links to account */
